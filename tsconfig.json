@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "typeRoots": ["./node_modules/phaser/types"],
+  "types": ["Phaser"],
+  "files": ["typings/phaser.d.ts", "src/main.ts"]
+}
